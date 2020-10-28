@@ -193,3 +193,49 @@ details summary {
   font-size: 1.22rem;
   color: var(--text-dark);
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--andela-blue);
+  width: 100%;
+  min-height: 15vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+footer #logos {
+  display: flex;
+  align-items: center;
+}
+
+footer #copyright {
+  color: white;
+}
+
+footer #andela-logo-footer {
+  width: 8rem;
+  margin-right: 2rem;
+}
+
+footer #soc-badge {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+footer #links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+footer #links a {
+  color: white;
+  font-size: 0.833rem;
+  text-decoration: none;
+}
+
+footer #links a:hover {
+  text-decoration: underline;
+}
