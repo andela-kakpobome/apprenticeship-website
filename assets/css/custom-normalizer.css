@@ -28,10 +28,11 @@
 }
 
 :root {
-  --andela-blue: #0b22a7;
+  --andela-blue: #0a21a8;
   --text-light: #9b9a98;
   --text-dark: #4d4d4d;
   --irembo-blue: #0389e1;
+  --andela-gold: #ffaf30;
 }
 
 h1,
