@@ -22,6 +22,10 @@
   visibility: hidden;
 }
 
+.mobile-only {
+  display: none;
+}
+
 /************************
  *  END HELPER STYLING
  ************************/
@@ -210,8 +214,8 @@ footer #logos {
   align-items: center;
 }
 
-footer #copyright {
-  color: white;
+footer .copyright {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 footer #andela-logo-footer {
@@ -231,11 +235,133 @@ footer #links {
 }
 
 footer #links a {
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   font-size: 0.833rem;
   text-decoration: none;
+  transition: color 100ms ease-in;
 }
 
 footer #links a:hover {
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
+  transition: color 100ms ease-out;
+}
+
+/*********************
+ * RESPONSIVE STYLING
+ *********************/
+@media screen and (max-width: 1023px) {
+  h1 {
+    font-size: 2.074rem;
+  }
+
+  h2 {
+    font-size: 1.728rem;
+  }
+
+  h4 {
+    font-size: 1.22rem;
+  }
+
+  .content {
+    width: 85%;
+  }
+
+  #banner .content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #banner .content #logo {
+    width: 5rem;
+  }
+
+  #banner .content #bants {
+    margin-bottom: 0;
+  }
+
+  #companies {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.8fr 0.8fr 0.8fr;
+  }
+
+  #companies .logo.dairynomics {
+    margin-top: 0;
+  }
+
+  #irembo-testimonial #group {
+    grid-template-columns: 1fr;
+  }
+
+  #irembo-testimonial #group #profile {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  #irembo-testimonial #testimonial {
+    margin-top: 2rem;
+  }
+
+  #irembo-testimonial #logo img {
+    width: 90%;
+  }
+
+  #service-cost {
+    grid-template-columns: 1fr;
+  }
+
+  #service-cost img {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  #service-cost .info {
+    margin-top: 1rem;
+  }
+
+  #service-cost .info .button-link {
+    margin-top: 1rem;
+  }
+
+  details {
+    margin: 2.5rem 0;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    margin-bottom: 3rem;
+  }
+
+  footer #links-header {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  footer #links {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  footer #links a {
+    margin-bottom: 1rem;
+  }
+
+  footer #main-copyright {
+    display: none;
+  }
+
+  footer .copyright {
+    margin-top: 1rem;
+  }
+
+  footer #soc-badge {
+    margin-right: 0;
+  }
+
+  .mobile-only {
+    display: block;
+  }
 }
