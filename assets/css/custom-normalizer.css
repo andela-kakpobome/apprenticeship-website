@@ -1,0 +1,80 @@
+@import '../../node_modules/normalize.css/normalize.css';
+
+@font-face {
+  font-family: DINPro;
+  src: url('https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/themes/Andela/assets/fonts/FF-DIN-Pro.woff2')
+      format('woff2'),
+    url('https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/themes/Andela/assets/fonts/FF-DIN-Pro.woff')
+      format('woff'),
+    url('https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/themes/Andela/assets/fonts/FF-DIN-Pro.otf')
+      format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: DINPro;
+  src: url('https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/themes/Andela/assets/fonts/DINPro-Bold.eot');
+  src: url('https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/themes/Andela/assets/fonts/DINPro-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/themes/Andela/assets/fonts/DINPro-Bold.woff')
+      format('woff'),
+    url('https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/themes/Andela/assets/fonts/DINPro-Bold.ttf')
+      format('truetype'),
+    url('https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/themes/Andela/assets/fonts/DINPro-Bold.svg#DINRegular')
+      format('svg');
+  font-weight: 500;
+  font-style: bold;
+}
+
+:root {
+  --andela-blue: #0b22a7;
+  --text-light: #9b9a98;
+  --text-dark: #4d4d4d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small,
+input,
+ul,
+li,
+select,
+option,
+div,
+section {
+  font-family: DINPro;
+}
+
+h1 {
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 2.074rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.22rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.833rem;
+}
