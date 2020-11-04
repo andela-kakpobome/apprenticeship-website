@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start:dev": "yarn parcel index.html",
+    "build": "yarn parcel build index.html"
+  },
   "dependencies": {
     "normalize.css": "^8.0.1",
     "parcel": "^1.12.4"
